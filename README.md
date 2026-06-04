@@ -9,7 +9,6 @@
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
 This ticket caught my eye because PHI-safe logging is a compliance boundary I haven't worked with directly in my current position. This ticket helps me understand how HIPAA shapes logging architecture differently than the patterns I use today.
 
 ---
