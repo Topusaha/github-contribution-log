@@ -17,19 +17,22 @@ This ticket caught my eye because PHI-safe logging is a compliance boundary I ha
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+demographicNo is a surrogate key rather than direct clinical text. However, it represents a patient record and should not appear in plain log output. In debug mode, this information is logged, which we don't want because it can expose patient information. Since debug mode is turned off in production, this is not a high-priority ticket but should still be resolved. 
 
 ### Expected Behavior
 
-[What should happen?]
+Instead of logging the demographicNo directly, we should be using the wrapper LogSafe, which sanitizes the information.
 
 ### Current Behavior
 
-[What actually happens?]
+Currently, we have this code executing, which logs demographicNo directly. 
+
+// src/main/java/io/github/carlos_emr/carlos/lab/ca/on/Spire/SpireLabTest.java:134
+log.debug("going out " + this.demographicNo);
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+Any part of the codebase that logs demographicNo without using the LogSafe wrapper is involved. 
 
 ---
 
