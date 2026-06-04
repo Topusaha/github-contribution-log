@@ -1,15 +1,16 @@
-# Contribution [#]: [Issue Title]
+# Contribution [# 1]: [[Security] PHI-correlating identifier logged without LogSafe in SpireLabTest.java]
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** [1]  
+**Student:** [Topu Saha]  
+**Issue:** [[link](https://github.com/carlos-emr/carlos/issues/2317)]  
+**Status:** [Phase I]
 
 ---
 
 ## Why I Chose This Issue
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+This ticket caught my eye because PHI-safe logging is a compliance boundary I haven't worked with directly in my current position. This ticket helps me understand how HIPAA shapes logging architecture differently than the patterns I use today.
 
 ---
 
