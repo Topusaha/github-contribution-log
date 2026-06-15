@@ -40,7 +40,10 @@ Any part of the codebase that logs demographicNo without using the LogSafe wrapp
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+1. Clone and Fork the repo
+2. Set up dev containers on the repo (currently stuck and not working)
+
+Dev containers is currently on a loop and do not fully connect; the maintainers say it takes a while but I ran it for a whole day and the dev containers never connected. I currently tried to check if any other containers are taking up the required ports and they aren't. I'm planning to talk to my teammate who successfully installed this and get back and track this upcoming week. 
 
 ### Steps to Reproduce
 
