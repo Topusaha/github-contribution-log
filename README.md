@@ -45,6 +45,8 @@ Any part of the codebase that logs demographicNo without using the LogSafe wrapp
 
 Dev containers is currently on a loop and do not fully connect; the maintainers say it takes a while but I ran it for a whole day and the dev containers never connected. I currently tried to check if any other containers are taking up the required ports and they aren't. I'm planning to talk to my teammate who successfully installed this and get back and track this upcoming week. 
 
+After talking with my teammate in my pod he also had the same issue and we ended up taking out the package from the docker container that was causing issues on the build. So this week I finished up setting up the enviroment for the repo and can now go on with the ticket.
+
 ### Steps to Reproduce
 
 1. [Step 1]
